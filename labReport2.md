@@ -47,7 +47,7 @@ Server Started! Visit http://localhost:4111 to visit.
 *Below are screenshots of adding different Strings to the URL, which are then concatenated and printed out in succession, followed by a brief description for each:* 
 
 ![Image](lr2ss1.png)
-![Image](lr2ss2.png)
+
 
 
 
