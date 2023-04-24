@@ -63,7 +63,7 @@ Server Started! Visit http://localhost:4111 to visit.
 - Similarly, the value of the String stored is also changed because it is concatenated with the new request, and is no longer one single entry. 
 
 
-## Part 1
+## Part 2
 
 The buggy program that will be analyzed is that related to the implementation of the reversed method in ArrayExamples.java. This method is meant to take in an Array, and return the Array in reversed order. For example the following Array: {1,2,3} should be reversed and returned as {1,2,3}. To further understood the characteristics that make this method buggy, it is important to look at the code, test out different inputs and discover which symptons result from failure-inducting inputs. 
 
