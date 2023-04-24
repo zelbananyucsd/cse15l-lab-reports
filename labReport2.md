@@ -59,7 +59,7 @@ Server Started! Visit http://localhost:4111 to visit.
 
 - The `main` method is first called, and the aforementioned order of operations is performed. The value of port is not changed, but a new `Handler()` is called.
 - This calls the same `handleRequest(URI url)` method with the URL taken in as the parameter. Since, it also contains the key word `“/add-message”`, it enters the conditional statement and performs the same task. 
-- Here, the value of `parameters[1]` is changed, because this is a new request, and so it is now `“how are you”` instead of `“hello”`. 
+- Here, the value of `parameters[1]` is changed, because this is a new request, and so it is now `“hello \n how are you”` instead of `“hello”`. 
 - Similarly, the value of the String stored is also changed because it is concatenated with the new request, and is no longer one single entry. 
 
 
