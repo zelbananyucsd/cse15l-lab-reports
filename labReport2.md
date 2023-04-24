@@ -5,8 +5,8 @@ Writing a web server that handles a URL request requires multiple steps. First, 
 
 *Code:*
 
-`import java.io.IOException;
-import java.net.URI;
+> import java.io.IOException;
+> import java.net.URI;
 
 class Handler implements URLHandler {
     String stored = "";
@@ -33,7 +33,7 @@ class StringServer {
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }
-}`
+}
 
 *Compiling and running the program in the terminal, and ensuring that a unique port number is used:*
 `
