@@ -5,8 +5,9 @@ Writing a web server that handles a URL request requires multiple steps. First, 
 
 *Code:*
 
-> import java.io.IOException;
-> import java.net.URI;
+```
+import java.io.IOException;
+import java.net.URI;
 
 class Handler implements URLHandler {
     String stored = "";
@@ -34,13 +35,15 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
+```
 
 *Compiling and running the program in the terminal, and ensuring that a unique port number is used:*
-`
+
+```
 ziadbanany@Ziads-MacBook-Air StringServer % javac Server.java StringServer.java 
 ziadbanany@Ziads-MacBook-Air StringServer % java StringServer 4111
 Server Started! Visit http://localhost:4111 to visit.
-`
+```
 
 *Below are screenshots of adding different Strings to the URL, which are then concatenated and printed out in succession, followed by a brief description for each:* 
 
