@@ -8,7 +8,7 @@ The command I will be further exploring is `find`, which performs multiple opera
 
 
 
-Four useful command-line options for `find` will be explored more in-depth below:
+Four useful command-line options for `find` will be explored more in-depth below.
 
 
 ## 1. -path 
