@@ -42,7 +42,7 @@ This below example matches all paths in the working directory that include "13".
 ``` 
 
 ## 2. -size
-The -size command-line option allows the user to find files based on their sizes. Using the operators + and - indicate whether it should find files that are greater than (+) or less than (-) the specified size. It is also possible to use "=" which looks for file with that exact size. Multiple letters can be used to indicate different size classifications: 'b' is bytes, 'k' is kilobytes, 'M' is megabytes, 'G' is gigabytes and 'T' is terabytes. This is useful to be able to filter through the directory and find files of specific sizes, which can be useful in certain circumstances such as finding large files to delete for memory space or find trivially-small files that may not be needed anymore. 
+The -size command-line option allows the user to find files based on their sizes. The operators + and - indicate whether it should find files that are greater than (+) or less than (-) the specified size. It is also possible to use "=" which looks for file with that exact size. Multiple letters can be used to indicate different size classifications: 'b' is bytes, 'k' is kilobytes, 'M' is megabytes, 'G' is gigabytes and 'T' is terabytes. This is useful to be able to filter through the directory and find files of specific sizes, which can be useful in certain circumstances such as finding large files to delete for memory space or find trivially-small files that may not be needed anymore. 
 
 **Example 1:**
 This below example finds files in the biomed subdirectory that are smaller than 10 kilobytes. This is useful when searching for files that are small. 
