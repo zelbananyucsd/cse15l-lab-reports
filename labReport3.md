@@ -2,9 +2,11 @@
 
 ## Command: `find`
 
-The command I will be further exploring is `find`, which performs multiple operations aimed at finding files and directories through different methods based on command-line options. All command-line options where gathered from the Linux/UNIX manual page, which can be found at the following link:
+The command I will be further exploring is `find`, which performs multiple operations aimed at finding files and directories through different methods based on command-line options. All command-line options where gathered from the Linux/UNIX manual page, which can be found at this URL (https://man7.org/linux/man-pages/man1/find.1.html) or the following hyperlink:
 
 [find(1) - Linux manual page](https://man7.org/linux/man-pages/man1/find.1.html)
+
+
 
 Four useful command-line options for `find` will be explored more in-depth below:
 
