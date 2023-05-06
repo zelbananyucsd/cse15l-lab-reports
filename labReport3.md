@@ -16,7 +16,7 @@ Four useful command-line options for `find` will be explored more in-depth below
 The -path command-line option allows the user to find files based on patterns in their paths. This is useful because it helps locate files within the entire directory system, and indicates their relative paths based on the current working directory. 
 
 **Example 1:**
-The below example matches all paths in the working directory that end with "51.txt". It uses the `*` wildcard which basically means to match any and all patterns that go before the "51.txt". Since the command-line option is -path, it returns all paths that include the specified characters. This is useful in the biomed subdirectory because it finds the paaths for a specific research project, #51. 
+The below example matches all paths in the working directory that end with "51.txt". It uses the `*` wildcard which basically means to match any and all patterns that go before the "51.txt". Since the command-line option is -path, it returns all paths that include the specified characters. This is useful in the biomed subdirectory because it finds the paths for a specific research project, #51. 
 
 ``` 
 -bash-4.2$ find biomed -path *51.txt
