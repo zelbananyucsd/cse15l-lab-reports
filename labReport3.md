@@ -105,7 +105,7 @@ technical/government/Post_Rate_Comm
 technical/plos
 ``` 
 
-## 3. -mtime and -ctime
+## 4. -mtime and -ctime
 The -mtime and -ctime command-line options allow the user to find files based on their modification time (-mtime) and creation time (-ctime). These also use the operators "+" and "-" as indicators of greater than or less than a number of days. The number that follows the operator is multiplied by 24 to indicate the number of hours ago. For example 1 is 24 hours, 2 is 48 hours, etc. This would help sort through a big database of files and find files created either recently or long ago. This can help find files that are relatively old and can possibly be deleted to free up memory if they are no longer of use. On the other hand, it can help track activity on which files have been recently modified. 
 
 **Example 1:**
