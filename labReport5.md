@@ -2,7 +2,7 @@
 
 ## Part 1 – Debugging Scenario
 
-1. EdStem Post 
+### EdStem Post 
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)**
 
@@ -31,7 +31,7 @@ java factorial
 The output is indicating that the error is caused by line 6, which makes me believe that the calculation results in unexpected behavior. Considering that this is a StackOverflow Error, I am also guessing that this issue might have to do with memory or an infinite loop but I am unsure as to why my code is causing that. 
 
 
-2. TA Response
+### TA Response
 
 Hello Ziad, thank you for your screenshot and for providing context for the bug. 
 
@@ -51,7 +51,7 @@ else{
 
 Good luck!
 
-3. Implementing TA Suggestion 
+### Implementing TA Suggestion 
 
 Upon receiving feedback from the TA, the code was changed to include a base case. The code thereafter looked like this:
 
